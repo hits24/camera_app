@@ -1,8 +1,6 @@
 from flask import Flask, render_template_string
-from flask_socketio import SocketIO
 
 app = Flask(__name__)
-socketio = SocketIO(app)
 
 index_html = '''
 <!DOCTYPE html>
